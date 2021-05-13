@@ -1,0 +1,26 @@
+{
+  "name": "pognali-21",
+  "private": true,
+  "description": "Личный проект «Погнали» от HTML Academy",
+  "devDependencies": {
+    "autoprefixer": "10.0.2",
+    "browser-sync": "2.26.13",
+    "gulp": "4.0.2",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-sass": "4.1.0",
+    "postcss": "8.1.7"
+  },
+  "scripts": {
+    "build": "gulp styles",
+    "start": "gulp"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "engines": {
+    "node": "14.15.0"
+  }
+}
